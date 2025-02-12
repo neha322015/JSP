@@ -13,7 +13,9 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>jspPage</name>
 	<description>jspPage project for Spring Boot</description>
-	
+
+                <packaging>war</packaging>
+            
 	<url/>
 	<licenses>
 		<license/>
@@ -79,9 +81,7 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				 <configuration>
-                <packaging>war</packaging>
-            </configuration>
+				 
 			</plugin>
 		</plugins>
 	</build>
